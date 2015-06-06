@@ -51,7 +51,7 @@ iOS 개발자
 
 **기능**
 * 학교 강의시간표 데이터베이스에서 수업 추가
- * ![Database_search](/image/Database_search.jpg)
+ * ![Database_search](https://github.com/MinJunKweon/minjunkweon.github.io/blob/master/images/Database_search.jpg?raw=true)
  * 학교 학사정보시스템에서 제공하는 종합강의시간표를 이용해 일일히 강의를 손으로 추가하지 않아도 한번에 클릭으로 강의가 추가될 수 있도록 만들었습니다.
 * 알림센터 위젯 지원
  * ![Widget](https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xtp1/v/t1.0-9/11143539_1631924167044007_5431670694314137520_n.jpg?oh=dea16b5ff1c2601d1b400a1927560dcb&oe=5607C5C6&__gda__=1442807520_2d3107a0083218110785262cca45eff5)
@@ -82,11 +82,11 @@ iOS 개발자
 
 **기능**
 * 페이스북 공유
- * ![Facebook_share](/image/Facebook_Share.jpg)
+ * ![Facebook_share](https://github.com/MinJunKweon/minjunkweon.github.io/blob/master/images/Facebook_Share.jpg?raw=true)
  * 게임 결과를 페이스북에 공유하여 사람들과 공유할 수 있습니다.
 
 * 게임센터
- * ![GameCenter](/image/GameCenter.jpg)
+ * ![GameCenter](https://github.com/MinJunKweon/minjunkweon.github.io/blob/master/images/GameCenter.jpg?raw=true)
  * 게임센터에 연동하여 업적을 달성하고 다른 유저들과 경쟁하는 기능입니다.
 
 
