@@ -5,5 +5,5 @@
 iOS Developer
 
 ## Personal Details
-'Email'
+<Email>
 Minz0000000@gmail.com
