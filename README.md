@@ -1,6 +1,6 @@
 # MinJun Kweon
 
-![Profile_img](http://graph.facebook.com/minz000/picture?width=300&height=300)
+![Profile_img](http://graph.facebook.com/minz000/picture?width=300&height=300 =250x)
 
 iOS 개발자
 
