@@ -1,6 +1,6 @@
 # MinJun Kweon
 
-![Profile_img](https://raw.githubusercontent.com/MinJunKweon/minjunkweon.github.io/master/images/minjun_profile_image.jpg =250x)
+![Profile_img](https://raw.githubusercontent.com/MinJunKweon/minjunkweon.github.io/master/images/minjun_profile_image.jpg)
 
 iOS 개발자
 
