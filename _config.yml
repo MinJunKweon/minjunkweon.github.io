@@ -16,7 +16,7 @@
 title: MinJun Kweon
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Developer, Hobbyist, Explorer.
+  Developer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: http://minjunkweon.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: minjunkweon
