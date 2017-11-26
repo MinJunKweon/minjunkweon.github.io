@@ -1,22 +1,20 @@
----
-layout: default
----
-<div class="home">
-  <h1 class="page-heading">Posts</h1>
-  
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "ko" }}">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  {% include head.html %}
+  {% include home-css.html %}
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  <body>
 
-</div>
+    <div class="wrapper">
+      <section class="title-wrapper">
+        <h2 class="bio-title">{{ site.description | default: "I'm"}}</h2>
+        <h1 class="name-title">{{ site.title | default: "NAME" }}</h1>
+      </section>
+    </div>
+    
+    {% include home-header.html %}
+
+  </body>
+
+</html>

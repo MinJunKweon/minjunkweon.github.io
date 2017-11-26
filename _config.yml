@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: MinJun Kweon
+author: MinJun
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Developer
@@ -25,7 +26,7 @@ permalink: pretty
 # Sass settings
 sass:
   sass_dir: _sass
-  style: compressed
+#  style: compressed
 
 # Build settings
 markdown: kramdown
