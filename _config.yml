@@ -21,6 +21,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: http://minjunkweon.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: minjunkweon
 github_username:  minjunkweon
+permalink: pretty
+
+# Sass settings
+sass:
+  sass_dir: _sass
+  style: compressed
 
 # Build settings
 markdown: kramdown
