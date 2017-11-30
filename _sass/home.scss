@@ -1,8 +1,11 @@
 @charset "utf-8";
+@font-face {
+	  font-family: "Noto Sans";
+		  src: url( '../assets/fonts/NotoSans-Thin.ttf');
+}
 
 // Define defaults for each variable.
-
-$base-font-family: "Helvetica Neue" !default;
+$base-font-family: 'Noto Sans' !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
