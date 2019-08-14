@@ -94,7 +94,7 @@ og_image                 : "/assets/images/og-image.png" # Open Graph/Twitter de
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  name                   : MinJunKweon Blog # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
 # Analytics
