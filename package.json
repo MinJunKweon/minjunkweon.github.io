@@ -32,7 +32,8 @@
     "test": "jest --config ./internal/testing/jest-config.ts",
     "test:coverage": "jest --coverage --config ./internal/testing/jest-config.ts",
     "test:update-snapshot": "jest --updateSnapshot --config ./internal/testing/jest-config.ts",
-    "test:watch": "jest --watch --config ./internal/testing/jest-config.ts"
+    "test:watch": "jest --watch --config ./internal/testing/jest-config.ts",
+    "deploy": "gatsby build && gh-pages -d public -b gh-pages"
   },
   "commitlint": {
     "extends": [
@@ -77,6 +78,7 @@
     "gatsby-source-filesystem": "^4.25.0",
     "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^4.25.0",
+    "gh-pages": "^5.0.0",
     "prismjs": "^1.29.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
