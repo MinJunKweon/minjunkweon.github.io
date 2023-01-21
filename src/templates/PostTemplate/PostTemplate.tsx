@@ -43,17 +43,17 @@ export const query = graphql`
 `;
 
 export const Head: React.FC<Props> = ({ data }) => {
-  const { title, subtitle } = useSiteMetadata();
+  const { title, subtitle, url } = useSiteMetadata();
 
   const {
     frontmatter: {
-      title: postTitle,
-      description: postDescription = "",
+      title: pageTitle,
+      description: pageDescription = "",
+      socialImage,
     },
   } = data.markdownRemark;
-
-  const description = postDescription || subtitle;
-  const image = '/og-image.png';
+  const description = pageDescription || subtitle;
+  const image = socialImage?.publicURL && url.concat(socialImage?.publicURL);
 
   return (
     <Meta

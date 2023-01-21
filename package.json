@@ -33,7 +33,7 @@
     "test:coverage": "jest --coverage --config ./internal/testing/jest-config.ts",
     "test:update-snapshot": "jest --updateSnapshot --config ./internal/testing/jest-config.ts",
     "test:watch": "jest --watch --config ./internal/testing/jest-config.ts",
-    "deploy": "gatsby build && gh-pages -d public -b gh-pages"
+    "deploy": "gatsby build && gh-pages -d public -b gh-page"
   },
   "commitlint": {
     "extends": [
