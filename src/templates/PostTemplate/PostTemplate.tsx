@@ -47,12 +47,13 @@ export const Head: React.FC<Props> = ({ data }) => {
 
   const {
     frontmatter: {
-      title: pageTitle,
-      description: pageDescription = "",
+      title: postTitle,
+      description: postDescription = "",
       socialImage,
     },
   } = data.markdownRemark;
-  const description = pageDescription || subtitle;
+
+  const description = postDescription || subtitle;
   const image = socialImage?.publicURL && url.concat(socialImage?.publicURL);
 
   return (
